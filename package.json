@@ -1,0 +1,14 @@
+{
+  "name": "bookbazaar-qa",
+  "version": "1.0.0",
+  "description": "Automated API test suite for BookBazaar",
+  "scripts": {
+    "test": "jest --testTimeout=15000 --runInBand"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
